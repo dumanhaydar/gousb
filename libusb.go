@@ -24,7 +24,7 @@ import (
 )
 
 /*
-#cgo pkg-config: libusb-1.0
+#cgo LDFLAGS: -Llibusb-1.0.a -lusb-1.0
 #include <libusb.h>
 
 int gousb_compact_iso_data(struct libusb_transfer *xfer, unsigned char *status);
