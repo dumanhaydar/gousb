@@ -24,7 +24,7 @@ import (
 )
 
 /*
-#cgo LDFLAGS: -L${SRCDIR}/libs -lusb-1.0
+#cgo LDFLAGS: -L${SRCDIR}/libs -llibusb-1.0
 #cgo CFLAGS: -I${SRCDIR}/include
 #include <libusb.h>
 
